@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(47, 88%, 63%);
+      display: flex; 
+      justify-content:center; 
+      align-items:center; 
+     margin: 0;
+     padding: 40px 0;
+     height: 100vh;
+     box-sizing: border-box;
+     flex-direction: column;
+    }
+      .myCard { 
+        background-color: white; 
+        border: 1px solid #333;
+        border-radius: 15px;  
+        width: 400px; 
+        padding: 20px; 
+        margin-bottom: 15px;
+        font-family: Arial, sans-serif; 
+        box-sizing: border-box;        
+         box-shadow: 10px 10px 0  rgba(0, 0, 0, 0.9);
+         
+      } 
+     .topImg{
+      width: 100%;
+      border-radius: 10px ;  
+    }
+  
+   .myCard .header {
+     background-color: hsl(47, 88%, 63%);
+     color: black; 
+     padding: 5px 10px;
+     border-radius: 5px;
+     display: inline-block;
+     font-weight: bold;
+     margin-top: 10px;
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+    
+   }
+    
+    p{
+      font-size: 16px;
+    }
+    
+
+    .desc{ 
+       color: hsl(0, 0%, 42%);
+       margin: 10px 0; 
+       margin-bottom :20px;
+       /*  */
+    }
+    .bottom{
+      display: flex; 
+      align-items: center;
+    }
+    .img1{
+      border-radius: 50%; width: 40px; height: 40px; margin-right: 10px;
+    }
+ 
+  .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: auto ;
+    
+   }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+
+</head>
+
+<body >
+  <div class="myCard"> 
+    <img class="topImg" src="./assets/images/Screenshot 2024-12-10 103808.png" alt="image" > 
+    <div class="header">Learning</div>
+        <p>Published 21 Dec 2023</p>
+
+        <h3>HTML & CSS foundations</h3>
+
+        <div class="desc"> These languages are the backbone of every website,
+           defining structure, content, and presentation. 
+          </div>
+
+        <div class="bottom">
+        <img src="assets/images/image-avatar.webp" class="img1"> 
+        <span>Greg Hooper</span>
+        </div>
+
+
+</div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eman Salem</a>.
+  </div>
+
+</body>
+</html>
+
